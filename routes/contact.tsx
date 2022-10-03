@@ -13,7 +13,7 @@ export default function Contact(props: PageProps) {
         <main class="p-4 mx-auto max-w-screen-sm flex justify-center items-center h-screen flex-wrap flex-col">
           <div class="w-full  mx-auto">
             <div class="p-6 border border-black-300 sm:rounded-md">
-              <form method="POST" action="{ACTION}">
+              <form method="POST" action={ACTION}>
                 <label class="block mb-6">
                   <span class="text-black-700">Your name</span>
                   <input type="text" name="name" class="p-2 block w-full mt-1 border-black-300 rounded-md shadow-sm focus:border-white-300" placeholder="Foo Bar"/>
