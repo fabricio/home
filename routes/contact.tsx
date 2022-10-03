@@ -34,6 +34,7 @@ export default function Contact(props: PageProps) {
               </form>
             </div>
           </div>
+          <Footer />
 
         </main>
       </body>
