@@ -1,5 +1,5 @@
 
-const TITLES = ['Husband', 'UX', 'Writer', 'Teacher', 'Father', 'Dreamer', 'Manager'];
+const TITLES = ['Camila\'s Husband', 'writer', 'teacher', 'Izabel\'s Father', 'student', 'manager'];
 // const TITLES = ['UX', 'Teacher', 'Manager'];
 
 

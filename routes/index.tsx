@@ -21,7 +21,7 @@ export default function Home() {
           <div class=" w-full">
             <span class="text-3xl">Hi, I'm</span>
             <h1 class="font-bold text-5xl"><a href="/contact" class="">{name}</a></h1>
-            <span class="text-2xl">Developer and {title().toLowerCase()}.</span>
+            <span class="text-2xl">Front-end, UX and {title()}.</span>
           </div>
           <ul class="w-full mt-5 font-noto">
             {/* {links.map(link => <li class="text-xs"><a href={link[1]} class="text-lg font-medium">fabricio</a> on {link[0]}</li>)} */}
