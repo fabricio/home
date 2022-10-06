@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       <HeadComponent />
-      {locale()}
+      {/* {locale()} */}
       {/* {locale() === 'en-US'? 'Fuck': 'Puts'} */}
       <body class="bg-bg font-sans text-black">
         <main class="p-4 mx-auto max-w-screen-sm flex justify-center items-center h-screen flex-wrap flex-col">
