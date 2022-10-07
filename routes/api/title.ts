@@ -1,12 +1,6 @@
-// import { parse } from "https://deno.land/std/flags/mod.ts";
-// import i18next from 'https://deno.land/x/i18next/index.js'
-
 import { TITLES } from './locale.ts';
 
-export const checkLocale = () => {
-  const _locale = Intl.DateTimeFormat().resolvedOptions().locale;
-    return _locale;
-}
+export const checkLocale = ():string => Intl.DateTimeFormat().resolvedOptions().locale;
 
 export const Title = () => {
   if (checkLocale() === 'pt-BR') {

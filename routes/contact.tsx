@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer.tsx';
 
 const ACTION = "https://public.herotofu.com/v1/948b9530-18e0-11ed-98e8-53e0970ab51c";
 
-export default function Contact(props: PageProps) {
+export default function Contact() {
   return(
     <>
       <HeadComponent />
