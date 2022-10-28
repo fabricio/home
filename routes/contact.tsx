@@ -1,6 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import { HeadComponent } from '../components/Head.tsx';
-import { Footer } from '../components/Footer.tsx';
+// import { Footer } from '../components/Footer.tsx';
 
 
 const ACTION = "https://public.herotofu.com/v1/948b9530-18e0-11ed-98e8-53e0970ab51c";
@@ -34,7 +34,7 @@ export default function Contact() {
               </form>
             </div>
           </div>
-          <Footer />
+          {/* <Footer /> */}
 
         </main>
       </body>

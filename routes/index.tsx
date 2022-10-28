@@ -1,7 +1,7 @@
 
 import { pt, en, random, checkLocale } from './api/title.ts'
 import { HeadComponent } from '../components/Head.tsx'
-import { Footer } from '../components/Footer.tsx'
+// import { Footer } from '../components/Footer.tsx'
 
 const name ='Fabrício';
 // const title = Title;
@@ -23,7 +23,7 @@ export default function Home() {
             <li class="text-xs"><a href="http://github.com/fabricio/" class="text-base font-medium">/fabricio</a> on github</li>
             <li class="text-xs"><a href="http://twitter.com/fabricio/" class="text-base font-medium">@fabricio</a> on twitter</li>
           </ul>
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </body>
     </>
